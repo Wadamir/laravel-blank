@@ -1,0 +1,6 @@
+.vscode
+www/*
+!www/resources
+!www/postcss.config.js
+!www/tailwind.config.js
+!www/vite.config.js
