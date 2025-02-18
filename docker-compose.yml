@@ -39,13 +39,10 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - db_data:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
     networks:
       - laravel-network
 
 networks:
   laravel-network:
     driver: bridge
-
-volumes:
-  db_data:
