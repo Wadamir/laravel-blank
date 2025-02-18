@@ -9,19 +9,17 @@
 - Composer in Dockerfile.php
 
 ## File structure
-/project
-  ├── /nginx
-  │    ├── default.conf
-  ├── /php
-  │    ├── /conf
-  │    │    └── php.ini
-  ├── /mysql
-  ├── /www
-  ├── docker-compose.yml
-  ├── Dockerfile.php
-  └── README.md
-
-
+- /project
+- - /nginx
+- - ──  default.conf
+- - /php
+- - - /conf
+- - - ── php.ini
+- - /mysql
+- - /www
+- ── docker-compose.yml
+- ── Dockerfile.php
+- ── README.md
 
 ## Installation
 
